@@ -15,7 +15,7 @@ WiFiEventHandler wifi_disconnect_handler;
 Ticker wifi_reconnect_timer;
 
 // OTA
-#define HOSTNAME "bedroomMonitor"
+#define HOSTNAME "bedroomMotionDHT"
 
 // MQTT
 AsyncMqttClient MQTT_client;
