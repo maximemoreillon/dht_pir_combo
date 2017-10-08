@@ -7,6 +7,7 @@ WiFi MQTT motion, temperature and humidity sensor combo with OTA update capabili
 * [Async MQTT client](https://github.com/marvinroger/async-mqtt-client)
 * [ESPAsyncTCP](https://github.com/me-no-dev/ESPAsyncTCP)
 * [Adafruit DHT sensor library](https://github.com/adafruit/DHT-sensor-library)
+* [ArduinoJson](https://github.com/bblanchon/ArduinoJson)
 
 ## Hardware
 ### Parts
