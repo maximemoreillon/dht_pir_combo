@@ -68,8 +68,7 @@ void MQTT_publish_callback(uint16_t packetId) {
   Serial.println("MQTT published successfully");
 }
 
-void MQTT_publish_DHT(float p_temperature, float p_humidity)
-{
+void MQTT_publish_DHT(float p_temperature, float p_humidity) {
   StaticJsonBuffer<200> jsonBuffer;
   JsonObject& root = jsonBuffer.createObject();
   root["temperature"] = (String)p_temperature;

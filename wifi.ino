@@ -4,7 +4,6 @@ void wifi_setup() {
   wifi_connect_handler = WiFi.onStationModeGotIP(wifi_connect_callback);
   wifi_disconnect_handler = WiFi.onStationModeDisconnected(wifi_disconnect_callback);
 
-  // Settings
   WiFi.mode(WIFI_STA);
   WiFi.hostname(HOSTNAME);
 }
